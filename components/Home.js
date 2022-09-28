@@ -36,7 +36,7 @@ function Home() {
   const [moviesData, setMoviesData] = useState([]);
 
   useEffect(() => {
-    fetch('https://my-movies-backend-jm31.vercel.app/movies')
+    fetch('https://my-movies-backend-omega.vercel.app/movies')
       .then(response => response.json())
       .then(data => {
         //console.log(data.results)
